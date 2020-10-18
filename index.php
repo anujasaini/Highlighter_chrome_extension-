@@ -71,7 +71,7 @@ if(isset($_POST["submit"]))
 		$mail->Port = 587;								//Sets the default SMTP server port
 		$mail->SMTPAuth = true;							//Sets SMTP authentication. Utilizes the Username and Password variables
 		$mail->Username = 'anujasaini96@gmail.com';					//Sets SMTP username
-		$mail->Password = 'lslegacyofiitg********';					//Sets SMTP password
+		$mail->Password = '********';					//Sets SMTP password
 		$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;							//Sets connection prefix. Options are "", "ssl" or "tls"
 		$mail->From = $_POST["email"];					//Sets the From email address for the message
 		$mail->FromName = 'Anuja';				//Sets the From name of the message
